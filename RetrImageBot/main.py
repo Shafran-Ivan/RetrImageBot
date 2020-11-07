@@ -4,6 +4,8 @@ from time import sleep
 
 reddit = Reddit("bot1", user_agent="RetrImageBot by u\TovarischKaras")
 
+print("Bot is running")
+
 while True:
 
     transcribe_inbox(reddit)

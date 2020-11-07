@@ -27,8 +27,6 @@ def read_img(image, resize=1, thresh_min=240):
         else:
             thresh_min = 10 + avg
 
-    print(f"avg color: {avg} \n tresh_min: {thresh_min}\n")
-
     h, w = gray.shape
 
     # resizing image so tesseract would be able to read it

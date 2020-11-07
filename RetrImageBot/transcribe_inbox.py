@@ -48,6 +48,7 @@ Downvote me if transcription is bad.
 
 ###### I'm bot that transcribes images for Reddit.You can volontueer for stuff that i don't know how to transcribe.\n
 ###### **[If you'd like more information on what we do and why we do it, click here!](https://www.reddit.com/r/TranscribersOfReddit/wiki/index)**
+###### **[code](https://www.reddit.com/r/TranscribersOfReddit/wiki/index)**
 """
 
         comment.reply(reply)

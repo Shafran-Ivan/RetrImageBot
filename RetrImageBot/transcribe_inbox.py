@@ -1,4 +1,3 @@
-from re import compile
 from requests import get
 from sys import stdout
 from praw.models import Message
@@ -18,10 +17,6 @@ def transcribe_inbox(reddit):
         submission = comment.submission
 
         if submission.is_self:  # skipping text only submissions
-            continue
-        re_image = compile("\.(png)?(jpg)?$")
-
-        if re_image.search(submission.url) == None:
             continue
         
         image = get(submission.url).content
